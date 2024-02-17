@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+
+{% block content%}
+<h1>stackpage</h1>
+<h2>
+<!--    {% for mock_db in stacks %}-->
+    <div>{{mock_db.stack}} --  <a href="">{{mock_db.employee}} <hr> </a></div>
+    {% endfor %}
+</h2>
+
+{% endblock %}
